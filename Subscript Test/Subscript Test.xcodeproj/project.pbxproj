@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B43846518DF1DFC007C8D54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B43846418DF1DFC007C8D54 /* Foundation.framework */; };
+		6B43846718DF1DFC007C8D54 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B43846618DF1DFC007C8D54 /* CoreGraphics.framework */; };
+		6B43846918DF1DFC007C8D54 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B43846818DF1DFC007C8D54 /* UIKit.framework */; };
+		6B43846F18DF1DFC007C8D54 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B43846D18DF1DFC007C8D54 /* InfoPlist.strings */; };
+		6B43847118DF1DFC007C8D54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B43847018DF1DFC007C8D54 /* main.m */; };
+		6B43847518DF1DFC007C8D54 /* JAMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B43847418DF1DFC007C8D54 /* JAMAppDelegate.m */; };
+		6B43847718DF1DFC007C8D54 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B43847618DF1DFC007C8D54 /* Images.xcassets */; };
+		6B43849618DF1E6A007C8D54 /* NSAttributedString+Superscript.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B43849518DF1E6A007C8D54 /* NSAttributedString+Superscript.m */; };
+		6B43849A18DF2225007C8D54 /* JAMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B43849918DF2225007C8D54 /* JAMMainViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B43846118DF1DFC007C8D54 /* Subscript Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Subscript Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B43846418DF1DFC007C8D54 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6B43846618DF1DFC007C8D54 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6B43846818DF1DFC007C8D54 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6B43846C18DF1DFC007C8D54 /* Subscript Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Subscript Test-Info.plist"; sourceTree = "<group>"; };
+		6B43846E18DF1DFC007C8D54 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6B43847018DF1DFC007C8D54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6B43847218DF1DFC007C8D54 /* Subscript Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Subscript Test-Prefix.pch"; sourceTree = "<group>"; };
+		6B43847318DF1DFC007C8D54 /* JAMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JAMAppDelegate.h; sourceTree = "<group>"; };
+		6B43847418DF1DFC007C8D54 /* JAMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JAMAppDelegate.m; sourceTree = "<group>"; };
+		6B43847618DF1DFC007C8D54 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6B43847D18DF1DFC007C8D54 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6B43849418DF1E6A007C8D54 /* NSAttributedString+Superscript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+Superscript.h"; path = "../../NSAttributedString+Superscript.h"; sourceTree = "<group>"; };
+		6B43849518DF1E6A007C8D54 /* NSAttributedString+Superscript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+Superscript.m"; path = "../../NSAttributedString+Superscript.m"; sourceTree = "<group>"; };
+		6B43849818DF2225007C8D54 /* JAMMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JAMMainViewController.h; sourceTree = "<group>"; };
+		6B43849918DF2225007C8D54 /* JAMMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JAMMainViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B43845E18DF1DFC007C8D54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B43846718DF1DFC007C8D54 /* CoreGraphics.framework in Frameworks */,
+				6B43846918DF1DFC007C8D54 /* UIKit.framework in Frameworks */,
+				6B43846518DF1DFC007C8D54 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B43845818DF1DFC007C8D54 = {
+			isa = PBXGroup;
+			children = (
+				6B43846A18DF1DFC007C8D54 /* Subscript Test */,
+				6B43846318DF1DFC007C8D54 /* Frameworks */,
+				6B43846218DF1DFC007C8D54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B43846218DF1DFC007C8D54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B43846118DF1DFC007C8D54 /* Subscript Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B43846318DF1DFC007C8D54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B43846418DF1DFC007C8D54 /* Foundation.framework */,
+				6B43846618DF1DFC007C8D54 /* CoreGraphics.framework */,
+				6B43846818DF1DFC007C8D54 /* UIKit.framework */,
+				6B43847D18DF1DFC007C8D54 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B43846A18DF1DFC007C8D54 /* Subscript Test */ = {
+			isa = PBXGroup;
+			children = (
+				6B43849318DF1E40007C8D54 /* Categories */,
+				6B43849818DF2225007C8D54 /* JAMMainViewController.h */,
+				6B43849918DF2225007C8D54 /* JAMMainViewController.m */,
+				6B43847318DF1DFC007C8D54 /* JAMAppDelegate.h */,
+				6B43847418DF1DFC007C8D54 /* JAMAppDelegate.m */,
+				6B43847618DF1DFC007C8D54 /* Images.xcassets */,
+				6B43846B18DF1DFC007C8D54 /* Supporting Files */,
+			);
+			path = "Subscript Test";
+			sourceTree = "<group>";
+		};
+		6B43846B18DF1DFC007C8D54 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B43846C18DF1DFC007C8D54 /* Subscript Test-Info.plist */,
+				6B43846D18DF1DFC007C8D54 /* InfoPlist.strings */,
+				6B43847018DF1DFC007C8D54 /* main.m */,
+				6B43847218DF1DFC007C8D54 /* Subscript Test-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B43849318DF1E40007C8D54 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				6B43849418DF1E6A007C8D54 /* NSAttributedString+Superscript.h */,
+				6B43849518DF1E6A007C8D54 /* NSAttributedString+Superscript.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B43846018DF1DFC007C8D54 /* Subscript Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B43848D18DF1DFC007C8D54 /* Build configuration list for PBXNativeTarget "Subscript Test" */;
+			buildPhases = (
+				6B43845D18DF1DFC007C8D54 /* Sources */,
+				6B43845E18DF1DFC007C8D54 /* Frameworks */,
+				6B43845F18DF1DFC007C8D54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Subscript Test";
+			productName = "Subscript Test";
+			productReference = 6B43846118DF1DFC007C8D54 /* Subscript Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B43845918DF1DFC007C8D54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JAM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Jerry Andrew Mayers";
+			};
+			buildConfigurationList = 6B43845C18DF1DFC007C8D54 /* Build configuration list for PBXProject "Subscript Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6B43845818DF1DFC007C8D54;
+			productRefGroup = 6B43846218DF1DFC007C8D54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B43846018DF1DFC007C8D54 /* Subscript Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B43845F18DF1DFC007C8D54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B43846F18DF1DFC007C8D54 /* InfoPlist.strings in Resources */,
+				6B43847718DF1DFC007C8D54 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B43845D18DF1DFC007C8D54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B43849618DF1E6A007C8D54 /* NSAttributedString+Superscript.m in Sources */,
+				6B43847118DF1DFC007C8D54 /* main.m in Sources */,
+				6B43849A18DF2225007C8D54 /* JAMMainViewController.m in Sources */,
+				6B43847518DF1DFC007C8D54 /* JAMAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6B43846D18DF1DFC007C8D54 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B43846E18DF1DFC007C8D54 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B43848B18DF1DFC007C8D54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6B43848C18DF1DFC007C8D54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B43848E18DF1DFC007C8D54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Subscript Test/Subscript Test-Prefix.pch";
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INFOPLIST_FILE = "Subscript Test/Subscript Test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6B43848F18DF1DFC007C8D54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Subscript Test/Subscript Test-Prefix.pch";
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INFOPLIST_FILE = "Subscript Test/Subscript Test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B43845C18DF1DFC007C8D54 /* Build configuration list for PBXProject "Subscript Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B43848B18DF1DFC007C8D54 /* Debug */,
+				6B43848C18DF1DFC007C8D54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B43848D18DF1DFC007C8D54 /* Build configuration list for PBXNativeTarget "Subscript Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B43848E18DF1DFC007C8D54 /* Debug */,
+				6B43848F18DF1DFC007C8D54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B43845918DF1DFC007C8D54 /* Project object */;
+}
